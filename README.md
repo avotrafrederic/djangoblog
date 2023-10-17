@@ -3,7 +3,7 @@ Mini projet developper avec Django afin d'aider les apprentis en developpement w
 ## Prérequis
 Afin de visualiser ce projet il vous faut python v3 installer sur votre système si ce n'est pas le cas vous pouvez l'installer à partir de:
 ### Pour windows
-Téléchager python via son site officiel [python.org](https://python.org/download
+Téléchager python via son site officiel [python.org](https://python.org/download)
 ### Pour Linux (famille debian)
 ```.sh
 sudo apt-get install python3
