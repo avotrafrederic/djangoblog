@@ -59,7 +59,7 @@ python manage.py runserver
 <!-- To Link your profile to the media buttons -->
 
 [1]: https://www.facebook.com/zandry.kely.0
-[2]: https://www.linkedin.com/in/Avotra
+[2]: https://www.linkedin.com/in/avotra-frederic
 [3]: https://www.github.com/ZandryK
 
 
