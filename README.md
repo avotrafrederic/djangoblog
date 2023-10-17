@@ -50,9 +50,12 @@ Créer un dossier static et mettez vos fichier static la dedans et lancez le ser
 ```.sh
 python manage.py runserver
 ```
-## Follow Me
+## Abonnez-vous
+
 [![facebook](https://github.com/shikhar1020jais1/Git-Social/blob/master/Icons/Facebook.png (Facebook))][1]
+
 [![linkedin](https://github.com/shikhar1020jais1/Git-Social/blob/master/Icons/LinkedIn.png (LinkedIn))][2]
+
 [![github](https://github.com/shikhar1020jais1/Git-Social/blob/master/Icons/Github.png (Github))][3]
 
 
