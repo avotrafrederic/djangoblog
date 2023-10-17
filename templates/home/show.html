@@ -1,0 +1,52 @@
+{% extends 'layouts/app.html' %}
+{% load static %}
+{% block body %}
+    {% include 'partials/navbar.html' %}
+    <section id="showBanniere">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 h-100 d-flex flex-column justify-content-end pb-5 text-white-50">
+                    <h3>MonBlog</h3>
+                    <p>MonBlog>Article</p>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </section>
+    <section id="show">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{% static 'img/photos/img1.jpg' %}" alt="article image" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-6 text-white">
+                    <h2>{{data.title}}</h2>
+                    <hr>
+                    <p class="description text-white"> {{data.description}}</p>
+                    <p class="auteur"> {{data.auteur}} </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="related_article" class="py-5">
+        <div class="container">
+            <h1 class="text-center text-white text-uppercase">Related Posts</h1>
+            <div class="row">
+                {% for article in article  %}
+                    <div class="col-md-4">
+                        <div class="card" >
+                        <img class="card-img-top" src="{% static 'img/products/k1.jpg' %}" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">{{article.title}}</h4>
+                            <p class="card-text">{{article.description}}</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="{% url 'article.show' id=article.id %}">voir plus</a>
+                        </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endblock body %}

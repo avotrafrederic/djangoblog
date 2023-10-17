@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/library/bootstrap-4.6/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/library/fontawesome/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/customs/style.css' %}">
+    <title>MonBlog</title>
+</head>
+<body>
+    {% block body %}
+        
+    {% endblock body %}
+    
+    <script src="{% static 'js/library/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'js/library/bootstrap-4.6/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/library/bootstrap-4.6/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/library/fontawesome/all.min.js' %}"></script>
+</body>
+</html>
