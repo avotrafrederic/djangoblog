@@ -50,3 +50,16 @@ Créer un dossier static et mettez vos fichier static la dedans et lancez le ser
 ```.sh
 python manage.py runserver
 ```
+## Follow Me
+[![facebook](https://github.com/shikhar1020jais1/Git-Social/blob/master/Icons/Facebook.png (Facebook))][1]
+[![linkedin](https://github.com/shikhar1020jais1/Git-Social/blob/master/Icons/LinkedIn.png (LinkedIn))][2]
+[![github](https://github.com/shikhar1020jais1/Git-Social/blob/master/Icons/Github.png (Github))][3]
+
+
+<!-- To Link your profile to the media buttons -->
+
+[1]: https://www.facebook.com/zandry.kely.0
+[2]: https://www.linkedin.com/in/Avotra
+[3]: https://www.github.com/ZandryK
+
+
