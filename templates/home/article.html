@@ -13,6 +13,17 @@
             </div>
         </div>
     </section>
+    <nav class="navbar navbar-expand navbar-dark">
+        <div class="container">
+            <form action="{% url 'article.search' %}" method="POST">
+                {% csrf_token %}
+                <div class="form-inline">
+                    <input type="text" class="form-control" name="search">
+                    <button type="submit" class="btn btn-md btn-info"><i class="fa fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+    </nav>
     <section>
         <div class="container py-5">
             <h1 class="text-center text-uppercase text-white-50">All posts</h1>

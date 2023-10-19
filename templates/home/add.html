@@ -1,0 +1,12 @@
+{% extends 'layouts/app.html' %}
+{% load static %}
+{% load bootstrap %}
+{% block body %}
+<div class="container">
+    <form action="{% url 'article.store' %}" method="post">
+        {% csrf_token %}
+        {{form|bootstrap}}
+        <button type="submit" class="btn btn-info btn-md"><i class="fa fa-database"></i>valider</button>
+    </form>
+</div>
+{% endblock body %}
